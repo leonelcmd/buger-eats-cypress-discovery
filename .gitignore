@@ -3,4 +3,3 @@ cypress/videos
 cypress/screenshots
 cypress/fixtures/example.json
 cypress/support/README
-temp.txt
