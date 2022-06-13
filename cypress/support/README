@@ -1,0 +1,18 @@
+
+    //Como usar os hooks do cypress
+
+    // before(function() {
+    //     cy.log('Tudo que estiver dentro do before é executado uma única vez antes de TODOS os casos de teste')
+    // })
+    
+    // beforeEach(function() {
+    //     cy.log('Tudo que estiver dentro do beforeEach é executado uma vez antes de cada casos de teste')
+    // })
+    
+    // after(function() {
+    //     cy.log('Tudo que estiver dentro do After é executado uma única vez depois de TODOS os casos de teste')
+    // })
+    
+    // afterEach(function() {
+    //     cy.log('Tudo que estiver dentro do AfterEach é executado uma vez depois de TODOS os casos de teste')
+    // })
