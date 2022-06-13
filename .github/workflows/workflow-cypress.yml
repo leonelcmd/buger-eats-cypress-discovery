@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
 
-  ui-chrome-tests:
+  ui-edge-tests:
     runs-on: ubuntu-latest
     container: cypress/browsers:node14.17.0-chrome88-ff89
     strategy:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
-      - name: 'UI Tests - Chrome'
+      - name: 'UI Tests - Edge'
         uses: cypress-io/github-action@v2
         with:
           install-command: yarn install
@@ -21,7 +21,7 @@ jobs:
           wait-on-timeout: 120
           browser: chrome
           record: true
-          group: 'UI - Chrome'
+          group: 'UI - Edge'
           spec: cypress/integration/*
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
