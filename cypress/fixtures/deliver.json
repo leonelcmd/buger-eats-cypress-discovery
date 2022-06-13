@@ -1,0 +1,51 @@
+{
+    "signup": {
+        "name": "Leonel Doma",
+        "cpf": "00000014141",
+        "email": "optimus@hotmail.com",
+        "whatsapp": "48999999999",
+        "address": {
+            "postalCode": "88803145",
+            "street": "Rua Vereador Cyro Bacha",
+            "number": "145",
+            "details": "casa lilás",
+            "district": "Comerciário",
+            "city_state": "Criciúma/SC"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+
+    "invalid_document": {
+        "name": "Optimus Prime",
+        "cpf": "X000JJP4141",
+        "email": "leonel@hotmail.com",
+        "whatsapp": "48999999999",
+        "address": {
+            "postalCode": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "apto 123",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "invalid_email": {
+        "name": "Leonel Doma",
+        "cpf": "00000014141",
+        "email": "optimus.hotmail.com",
+        "whatsapp": "48999999999",
+        "address": {
+            "postalCode": "88803145",
+            "street": "Rua Vereador Cyro Bacha",
+            "number": "145",
+            "details": "casa lilás",
+            "district": "Comerciário",
+            "city_state": "Criciúma/SC"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}

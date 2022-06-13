@@ -1,0 +1,26 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "projeto de teste de aceitacao do app Buger-Eats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonelcmd/cypress-discovery.git"
+  },
+  "author": "LeonelDomagalski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonelcmd/cypress-discovery/issues"
+  },
+  "homepage": "https://github.com/leonelcmd/cypress-discovery#readme",
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "gerador-validador-cpf": "^5.0.2"
+  }
+}
