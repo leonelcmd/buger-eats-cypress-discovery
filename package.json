@@ -1,7 +1,7 @@
 {
   "name": "buger-eats",
   "version": "1.0.0",
-  "description": "projeto de teste de aceitacao do app Buger-Eats",
+  "description": "Projeto de teste de aceitacao do app Buger-Eats",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
